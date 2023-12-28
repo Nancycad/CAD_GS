@@ -1,0 +1,102 @@
+<html>
+<head>
+<title>MYWEBPAGE</title>
+<style>
+.title{
+	border:1px solid gray;
+	background-color:lightgreen;
+	text-align: center;
+}
+.box{
+	border: 1px solid darkgray;
+}
+table{
+	font-family: arial,sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+td,th{
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+a:hover{
+	background-color: yellowgreen;
+}
+li{
+float:left;
+}
+li a{
+	display: block;
+	color: #666;
+	text-align: center;
+	padding: 14px 17px;
+	text-decoration: none;
+}
+li a:hover (active){
+	background-color: black;
+}
+li a.active{
+	color: gray;
+	background-color: #04AA6D;
+}
+</style>
+
+</head>
+<body>
+	<ul>
+		<li><a class="active" href="file:///C:/Users/BRIGHT-SYS08/Desktop/cadbatch01/htmlbook.html">HOME</a></li>
+			<li><a href="https://www.google.com/search?q=news+about+html&rlz=1C1ONGR_enIN1085IN1085&oq=news+about+html&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMggIAxAAGBYYHjIICAQQABgWGB4yCAgFEAAYFhge0gEINTMwM2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8">NEWS</a></li>
+			<li><a href="https://www.google.com/search?q=contact+form+html&sca_esv=584847290&rlz=1C1ONGR_enIN1085IN1085&ei=nEJfZZDDIq2XseMP9LCCgAk&oq=CONTA+html&gs_lp=Egxnd3Mtd2l6LXNlcnAiCkNPTlRBIGh0bWwqAggBMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIHEAAYgAQYDTIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeSPFHUMcUWLstcAF4AZABAJgBigGgAYcNqgEEMy4xMrgBAcgBAPgBAcICChAAGEcY1gQYsAPCAggQABgIGAcYHsICCxAAGIAEGIoFGIYDwgIGEAAYHhgNwgIIEAAYHhgNGA_CAgsQABiABBiKBRiRAsICCBAAGIAEGLEDwgIKEAAYgAQYigUYQ8ICBRAAGIAEwgIKEAAYgAQYDRixA8ICERAAGIAEGIoFGLEDGIMBGJECwgIQEAAYgAQYigUYsQMYgwEYQ8ICDhAAGIAEGIoFGLEDGJECwgINEAAYgAQYigUYsQMYQ-IDBBgAIEGIBgGQBgg&sclient=gws-wiz-serp">CONTACT</a></li>
+			<li><a href="https://www.google.com/search?q=about+html&sca_esv=584847290&rlz=1C1ONGR_enIN1085IN1085&ei=6UJfZcbbGtmSseMPrJW14AY&ved=0ahUKEwiG9PmVjdqCAxVZSWwGHaxKDWwQ4dUDCBA&uact=5&oq=about+html&gs_lp=Egxnd3Mtd2l6LXNlcnAiCmFib3V0IGh0bWwyCBAAGIAEGLEDMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDILEAAYgAQYigUYkQIyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESIwVUABYgQpwAHgBkAEAmAH4AaABigWqAQUzLjEuMbgBA8gBAPgBAcICEBAAGIAEGIoFGLEDGIMBGEPCAgYQABgHGB7CAgoQABiABBiKBRhDwgIKEAAYgAQYDRixA8ICBxAAGIAEGA3CAg4QABiABBiKBRixAxiRAsICBxAAGIAEGAriAwQYACBBiAYB&sclient=gws-wiz-serp">ABOUT</a></li>
+
+	</ul>
+	<marquee><a href="https://www.w3schools.com/html/html_tables.asp">Refer this page to know html</a></marquee>
+	
+<div class="title">
+<h1>1.HTML OVERVIEW</h1>
+</div>
+<h3>Basic HTML Document</h3>
+<hr>
+<p>In its simplest form, following is an example of an HTML document: </p>
+<div class="box">
+	<p>&lt;!DOCTYPE html&<br> 
+&lt;html&<br> 
+&lt;head&<br> 
+&lt;title&<br>This is document title&lt;/title&<br> 
+&lt;/head&<br> 
+&lt;body&<br> 
+&lt;h1&<br>This is a heading&lt;/h1&<br> 
+&lt;p&<br>Document content goes here.....&lt;/p&<br> 
+&lt;/body&<br> 
+&lt;/html&<br>  </p>
+</div>
+<p>Either you can use Try it option available at the top right corner of the code box to check the result of this HTML code, or let's save it in an HTML file test.htm using your favorite text editor. Finally open it using a web browser like Internet Explorer or Google Chrome, or Firefox etc. It must show the following output:</p>
+<img src="htmlbook.PNG">
+<table>
+	<tr>
+		<td><b>Tag</b></td><br><td><b>Description </b></td>
+	</tr>
+	<tr>
+		<td>&lt;!DOCTYPE...&gt;</td><td>This tag defines the document type and HTML version. </td>
+	</tr>
+	<tr>
+		<td>&lt;html&gt; </td><td>This tag encloses the complete HTML document and mainly comprises of document header which is represented by &lt;head&gt;...&lt;/head&gt; and document body which is represented by &lt;body&gt;...&lt;/body&gt; tags.</td>
+	</tr>
+	<tr>
+		<td>&lt;head&gt; </td><td>This tag represents the document's header which can keep other HTML tags like &lt;title&gt;, &lt;link&gt; etc. </td>
+	</tr>
+	<tr>
+		<td>&lt;title&gt; </td><td>The &lt;title&gt; tag is used inside the &lt;head&gt; tag to mention the document title. </td>
+	</tr>
+	<tr>
+		<td>&lt;body&gt;</td><td>This tag represents the document's body which keeps other HTML tags like &lt;h1&gt;, &lt;div&gt;, &lt;p&gt; etc. </td>
+	</tr>
+	<tr>
+		<td>&lt;h1&gt; </td><td>This tag represents the heading.</td>
+	</tr>
+</table>
+</body>
