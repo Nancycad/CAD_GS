@@ -1,0 +1,111 @@
+img{
+	width:60px;
+	height:60px;
+}
+
+.Homeheading{
+	display:flex;
+	gap:20px;
+	justify-content:center;
+	place-items:Center;
+	background-color:paleturquoise ;
+}
+
+body{
+background-color: lavenderblush;}
+h1{
+	color: black;
+	font-size:25px;
+}
+
+.HomeheadingDescription{
+	text-align:center;
+}
+ul{
+	display: block;
+	list-style-type:none;
+	gap:15px;
+	background-color:black;
+	Padding:30px 20px;
+}
+
+li a{
+	text-decoration: none;
+	padding:30px 20px;
+	color:yellow;
+}
+
+li{
+	border-right:1px solid white;
+	float:left;
+}
+
+.lastchildmenu{
+float: right;}
+
+.image img{
+	width: 1400;
+	height: 253;
+}
+
+body{
+	background-image: Url('https://media.istockphoto.com/id/1406970413/photo/blue-gift-boxes.jpg?s=1024x1024&w=is&k=20&c=rC9RoyXQNZ_EDmm9Wt-QhG1LVZYHAaHQoxjSd46DjAI=');
+background-color: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+}
+
+.btn {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search{
+  float: Right;
+}
+
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: lightgoldenrodyellow;
+  min-width: 160px;
+  box-shadow: 10px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: darkgoldenrod;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: lightpink;}
+
+.Zoom:hover {scale: 3;
+}
