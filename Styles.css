@@ -24,17 +24,21 @@ h1{
 ul{
 	display: block;
 	list-style-type:none;
-	gap:15px;
 	background-color:black;
 	Padding:30px 20px;
+}
+li a :hover{
+  background-color: gray;
+  font-family: "Italic";
 }
 
 li a{
 	text-decoration: none;
-	padding:30px 20px;
+  gap: 10px;
+	padding:30px 15px;
+  text-align:center;
 	color:yellow;
 }
-
 li{
 	border-right:1px solid white;
 	float:left;
@@ -49,7 +53,7 @@ float: right;}
 }
 
 body{
-	background-image: Url('https://media.istockphoto.com/id/1406970413/photo/blue-gift-boxes.jpg?s=1024x1024&w=is&k=20&c=rC9RoyXQNZ_EDmm9Wt-QhG1LVZYHAaHQoxjSd46DjAI=');
+background-image: Url('https://media.istockphoto.com/id/1406970413/photo/blue-gift-boxes.jpg?s=1024x1024&w=is&k=20&c=rC9RoyXQNZ_EDmm9Wt-QhG1LVZYHAaHQoxjSd46DjAI=');
 background-color: no-repeat;
 background-attachment: fixed;
 background-size: 100% 100%;
@@ -64,7 +68,7 @@ background-size: 100% 100%;
   cursor: pointer;
 }
 
-.search{
+.right{
   float: Right;
 }
 
@@ -108,4 +112,49 @@ background-size: 100% 100%;
 .dropdown:hover .dropbtn {background-color: lightpink;}
 
 .Zoom:hover {scale: 3;
+}
+
+
+/*Log in*/
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.input-container {
+  display: -ms-flexbox; 
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
 }
