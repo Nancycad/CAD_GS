@@ -4,7 +4,11 @@
 
 <link rel="stylesheet" type="text/css" href="Styles.css">
 <link rel="Icon" type="text/css" href="C:\Users\BRIGHT-SYS08\Desktop\cadbatch01\NANCYA\PROJECT\GIFTSHOP\IMAGES\images.jpg">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 </head>
 
 <div class="HomeHeading">
@@ -16,14 +20,14 @@
 		<p>"Thoughful gifts, Endless Possibilities"</p>
 	</div> 
 		<ul>
-			<li><a href="Home.html"><i class="fa fa-Home">Home</i></li>
+			<li><a href="#"><i class="fa fa-Home">Home</i></li>
 				<li><a href="Login.html"><i class="fa fa-Login">Login</i></li>
-					<li><a href="#"><i class="fa fa-Categories">Categories</i></li>
 					<li><a href="#"><i class="fa fa-Occassion">Occasion</i></li>
 		<li><a href="#"><i class="fa fa-order Us"></i>Order</li>
 				<div class="right">
 			<li><a href="#"><i class="fa fa-Contact Us"></i> Contact Us</li>
 	<li><a href="#"><i class="fa fa-Help"></i> Help?</li>
+		<li><a href="AboutUS.Html"><i class="fa fa-About">About Us</i></li>
 	<li><a href="#"><i class="fa fa-search"></i>Search</li>
 	</div>
 	</ul>
@@ -39,7 +43,56 @@
 	<p >Giftcart is the best online gift shop in India, offering you a huge variety of gift options ranging from love & romance gifts, personalised gifts, hampers etc.</p>
 	<div class="image">
 	</div>
-<script src ="Operator.Js"></script>
+
+<div class="imagecontainer">
+<div class="swiper">
+	<!-- Additional required wrapper -->
+	<div class="swiper-wrapper">
+	  <!-- Slides -->
+	  <div class="swiper-slide"><img src="images/gift1.webp" alt=""></div>
+	  <div class="swiper-slide"><img src="images/gift2.jpg" alt=""></div>
+	  <div class="swiper-slide"><img src="images/gift5.jpg" alt=""></div>
+	</div>
+	<!-- If we need pagination -->
+	<div class="swiper-pagination"></div>
+  
+	<!-- If we need navigation buttons -->
+	<div class="swiper-button-prev"></div>
+	<div class="swiper-button-next"></div>
+  
+	<!-- If we need scrollbar -->
+	<div class="swiper-scrollbar"></div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+	const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  autoplay:{delay:300,
+pauseOnMouseEnter:true,},
+  slidesPrV:3,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+	clickable:true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+</script>
+  <!--<script src ="Operator.Js"></script>-->
 </body>
 </html>
 

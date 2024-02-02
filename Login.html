@@ -1,6 +1,39 @@
 
 <html>
 <head>
+<title> Gift Shop </title>
+
+<link rel="stylesheet" type="text/css" href="Styles.css">
+<link rel="Icon" type="text/css" href="C:\Users\BRIGHT-SYS08\Desktop\cadbatch01\NANCYA\PROJECT\GIFTSHOP\IMAGES\images.jpg">
+
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+</head>
+
+<div class="HomeHeading">
+	<img src="https://i.postimg.cc/fWB7jwhK/Capture.png">
+	<h1>Gift shop</h1>
+</div>
+
+	<div class="HomeheadingDescription">
+		<p>"Thoughful gifts, Endless Possibilities"</p>
+	</div> 
+		<ul>
+			<li><a href="Project.html.html"><i class="fa fa-Home">Home</i></li>
+				<li><a href="Login.html"><i class="fa fa-Login">Login</i></li>
+					<li><a href="#"><i class="fa fa-Occassion">Occasion</i></li>
+		<li><a href="#"><i class="fa fa-order Us"></i>Order</li>
+				<div class="right">
+			<li><a href="#"><i class="fa fa-Contact Us"></i> Contact Us</li>
+	<li><a href="#"><i class="fa fa-Help"></i> Help?</li>
+		<li><a href="AboutUS.Html"><i class="fa fa-About">About Us</i></li>
+	<li><a href="#"><i class="fa fa-search"></i>Search</li>
+	</div>
+	</ul>
+
+</div>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
@@ -17,7 +50,7 @@ input[type=text], input[type=password] {
 
 button {
   background-color: #04AA6D;
-  color: white;
+  color:#f1f1f1;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
@@ -31,8 +64,14 @@ button:hover {
 
 .cancelbtn {
   width: auto;
-  padding: 10px 12px;
+  padding: 12px 12px;
   background-color: #f44336;
+}
+
+.Signbtn{
+  width: auto;
+  padding: 12px 12px;
+  background-color: blue;
 }
 
 .imgcontainer {
@@ -65,10 +104,6 @@ span.psw {
   }
 }
 </style>
-</head>
-<body>
-
-<h2>Login Form</h2>
 
 <form action="/action_page.php" method="post">
   <div class="imgcontainer">
@@ -76,11 +111,11 @@ span.psw {
   </div>
 
   <div class="container">
-    <label for="uname"><b>Username</b></label>
+<label for="uname"><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+<br>
+    <label for="psw"><b>Password</b></label></div>
+    <input type="Password" placeholder="Enter Password" name="psw" required>
         
     <button type="submit">Login</button>
     <label>
@@ -90,8 +125,12 @@ span.psw {
 
   <div class="container" style="background-color:#f1f1f1">
     <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
+
+      <button type="button" class="cancelbtn">Forget Password</button>
   </div>
+  <div class="right">
+      <button type="buttonsign" class="Signbtn">Sign Up</button>
+      </div>
 </form>
 
 </body>
