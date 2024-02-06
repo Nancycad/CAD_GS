@@ -26,7 +26,7 @@
 					<li><a href="#"><i class="fa fa-Occassion">Occasion</i></li>
 		<li><a href="#"><i class="fa fa-order Us"></i>Order</li>
 				<div class="right">
-			<li><a href="#"><i class="fa fa-Contact Us"></i> Contact Us</li>
+			<li><a href="ContactUs.html"><i class="fa fa-Contact Us"></i> Contact Us</li>
 	<li><a href="#"><i class="fa fa-Help"></i> Help?</li>
 		<li><a href="AboutUS.Html"><i class="fa fa-About">About Us</i></li>
 	<li><a href="#"><i class="fa fa-search"></i>Search</li>
@@ -35,8 +35,36 @@
 
 </div>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<form action="/action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="https://i.postimg.cc/cJmH4p9k/images.jpg" alt="Giftcart" class="Giftcart">
+  </div>
+
+  <div class="container">
+<label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+<br>
+    <label for="psw"><b>Password</b></label></div>
+    <input type="Password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+
+      <button type="button" class="cancelbtn">Forget Password</button>
+  </div>
+  <div class="right">
+      <button type="buttonsign" class="Signbtn">Sign Up</button>
+      </div>
+</form>
 <style>
-body {font-family: Arial, Helvetica, sans-serif;}
+  .loginbody {font-family: Arial, Helvetica, sans-serif;}
 form {border: 3px solid #f1f1f1;}
 
 input[type=text], input[type=password] {
@@ -58,7 +86,7 @@ button {
   width: 100%;
 }
 
-button:hover {
+.button:hover {
   opacity: 0.4;
 }
 
@@ -71,7 +99,7 @@ button:hover {
 .Signbtn{
   width: auto;
   padding: 12px 12px;
-  background-color: blue;
+  background-color: rgb(98, 98, 175);
 }
 
 .imgcontainer {
@@ -104,34 +132,6 @@ span.psw {
   }
 }
 </style>
-
-<form action="/action_page.php" method="post">
-  <div class="imgcontainer">
-    <img src="https://i.postimg.cc/cJmH4p9k/images.jpg" alt="Giftcart" class="Giftcart">
-  </div>
-
-  <div class="container">
-<label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
-<br>
-    <label for="psw"><b>Password</b></label></div>
-    <input type="Password" placeholder="Enter Password" name="psw" required>
-        
-    <button type="submit">Login</button>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
-  </div>
-
-  <div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn">Cancel</button>
-
-      <button type="button" class="cancelbtn">Forget Password</button>
-  </div>
-  <div class="right">
-      <button type="buttonsign" class="Signbtn">Sign Up</button>
-      </div>
-</form>
 
 </body>
 </html>

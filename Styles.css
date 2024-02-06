@@ -183,3 +183,12 @@ body {font-family: Arial, Helvetica, sans-serif;}
   .swiper-pagination-bullet-active{
 	color: black;
   }
+
+  @media screen {max-width: 500px;   
+    (li a{font-size: 70px})
+  }
+
+	
+
+  
+  
