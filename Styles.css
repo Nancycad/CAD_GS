@@ -30,7 +30,8 @@ li{
 	float:left;
 }
 
-.lastchildmenu{
+
+.searchbar{
 float: right;}
 
 .imageimg{
@@ -49,8 +50,8 @@ background-size: 100% 100%;
 }
 /*Homepage*/
 .swiper-slide img{
-  width: 1200px;
-  height: 600px;
+  width: 1300px;
+  height: 550px;
 }
   /*Oderform*/
   @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
@@ -192,5 +193,5 @@ background-size: 100% 100%;
    background-color: #5195A8;
    } 
   
-  /*Login form*/
+
 
