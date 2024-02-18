@@ -1,6 +1,6 @@
 img{
-	width:60px;
-	height:60px;
+	width: 60px;
+	height: 60px;
 }
 .Homeheading{
 	display:flex;
@@ -29,8 +29,6 @@ li{
 	border-right:1px solid white;
 	float:left;
 }
-
-
 .searchbar{
 float: right;}
 
@@ -55,7 +53,6 @@ background-size: 100% 100%;
 }
   /*Oderform*/
   @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
-
   body{
     background: url('http://all4desktop.com/data_images/original/4236532-background-images.jpg');
     font-family: 'Roboto Condensed', sans-serif;
@@ -71,7 +68,7 @@ background-size: 100% 100%;
   }
   @media (min-width: 1200px)
   {
-    .container{
+  .container{
       max-width: 1140px;
     }
   }
@@ -193,75 +190,109 @@ background-size: 100% 100%;
    background-color: #5195A8;
    } 
 
-   /*aboutus*/
-   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+/*aboutus*/
 *{
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif ;
 }
-.about-us{
-  height: 100vh;
-  width: 100%;
-  padding: 90px 0;
-  background: #ddd;
+body{
+  background-color: rgb(231, 205, 231);
 }
-.pic{
-  height: auto;
-  width:  302px;
+.About-Heading {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px auto;
+}
+.About-Heading h1{
+  font-size: 50px;
+  color: #000;
+  margin-bottom: 25px;
+  position: relative;
+}
+.About-Heading h1::after{
+content:"";
+position: absolute;
+width: 100%;
+height: 4px;
+display: block;
+margin: 0 auto;
+background-color: #4caf50;
+}
+.About-Heading p{
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 35px;
+}
+.About-container{
+  width: 90%;
+  margin: 0 auto;
+  padding:10px 20px;
 }
 .about{
-  width: 1130px;
-  max-width: 85%;
-  margin: 0 auto;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: space-around;
+  flex-wrap: wrap;
 }
-.text{
-  width: 540px;
+.about-image{
+  flex:1;
+  padding: 50px 100px;
+  margin-right: 40px;
+  overflow: hidden;
 }
-.text h2{
-  font-size: 90px;
-  font-weight: 600;
-  margin-bottom: 10px;
-
+.about-image img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  transition: 0.5s ease;
 }
-.text h5{
-  font-size: 22px;
-  font-weight: 500;
-  margin-bottom: 20px;
+.about-image:hover img{
+  transform: scale(1.2);
 }
-span{
-  color: #4070f4;
+.about-content{
+  flex:1;
 }
-.text p{
+.about-content h2{
+  font-size: 23px;
+  margin-bottom: 15px;
+  color: #333;
+}
+.about-content p{
   font-size: 18px;
-  line-height: 25px;
-  letter-spacing: 1px;
+  line-height: 1.5;
+  color: #666;
 }
-.data{
-  margin-top: 30px;
-}
-.hire{
-  font-size: 18px;
-  background: #4070f4;
+.about-content .read-more{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4caf50;
   color: #fff;
+  font-size: 19px;
   text-decoration: none;
-  border: none;
-  padding: 8px 25px;
-  border-radius: 6px;
-  transition: 0.5s;
+  border-radius: 25px;
+  margin-top: 15px;
+  transition: 0.3s ease;
 }
-.hire:hover{
-  background: #000;
-  border: 1px solid #4070f4;
+.about-content .read-more :hover{background-color: #3e8e41; 
 }
-  
+@media screen and (max-width:768px){
+  .About-Heading h1{padding: 0px 20px;}
+  .About-Heading h2{font-size: 36px;}
+  .About-Heading p{font-size: 17px;margin-bottom: 0px;}
+  .About-container{padding: 0px;}
+  .about{padding: 20px; flex-direction: column;}
+  .about-image{margin-right: 0px; margin: bottom 20px;}
+  .about-content P{padding: 0px; font-size: 16px;}
+  .about-content .read-more{font-size: 16px;}
+}
 /*Contact Page*/
-*
-{
+*{
 margin: 0;
 padding:  0;
 box-sizing: border-box;
